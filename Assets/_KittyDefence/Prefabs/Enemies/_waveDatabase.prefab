@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3780664959114940940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3780664959114940941}
+  - component: {fileID: 3780664959114940938}
+  m_Layer: 0
+  m_Name: _waveDatabase 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3780664959114940941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780664959114940940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3780664959114940938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780664959114940940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4e24217b1529848b09c64fa7859015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalLives: 10
+  EnemiesSmall: {fileID: 191839217044363120, guid: e8859826db88540469a0837033f23f36,
+    type: 3}
+  EnemiesMedium: {fileID: 5411194835137042390, guid: 5772af1ef2082f14b80ec6fb36431133,
+    type: 3}
+  EnemiesLarge: {fileID: 7554812735814155355, guid: 0ea7305e828dde6418fc7ea6f2da2b94,
+    type: 3}
+  Waves:
+  - SpawnDelay: 1
+    TotalSmall: 10
+    TotalMedium: 0
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 8
+    TotalMedium: 1
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 3
+    TotalMedium: 3
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 4
+    TotalMedium: 3
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 7
+    TotalMedium: 0
+    TotalLarge: 1
+  - SpawnDelay: 1
+    TotalSmall: 15
+    TotalMedium: 0
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 1
+    TotalMedium: 5
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 11
+    TotalMedium: 2
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 0
+    TotalMedium: 6
+    TotalLarge: 0
+  - SpawnDelay: 1
+    TotalSmall: 5
+    TotalMedium: 0
+    TotalLarge: 2
